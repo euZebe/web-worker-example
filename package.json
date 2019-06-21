@@ -5,11 +5,13 @@
   "keywords": [],
   "main": "index.js",
   "dependencies": {
-    "react-dom": "16.8.0",
-    "react": "16.8.0"
+    "react": "16.8.0",
+    "react-dom": "16.8.0"
   },
   "devDependencies": {
-    "react-scripts": "1.0.0"
+    "prettier": "^1.18.2",
+    "react-scripts": "1.0.0",
+    "worker-loader": "^2.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
