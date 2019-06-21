@@ -1,0 +1,19 @@
+.loader {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-top: 5px solid seagreen;
+  border-bottom: 5px solid seagreen;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
