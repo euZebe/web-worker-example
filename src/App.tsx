@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import "./App.css";
 /* eslint import/no-webpack-loader-syntax: off */
 // @ts-ignore
-import TestWorker from "worker-loader!./worker/test.worker.js";
+import TestWorker from "worker-loader!./worker/test.worker.ts";
 import {WorkerResponse} from "./worker/worker";
 
 const App: React.FC = () => {
